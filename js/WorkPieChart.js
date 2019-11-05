@@ -417,8 +417,6 @@
 									
 									var usertype = "";
 
-									console.log('workPie:')
-									console.log(this.user)
 									if(g_dev_users.indexOf(this.user) > -1)
 									{
 										clone.children("li.qa").remove();
