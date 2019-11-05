@@ -136,14 +136,12 @@
 		var g_dev_users = [];
 		var g_qa_users = [];
 
-		/** TODO Check coding status **/
 		var g_issuetype_map = {
 			user_story: {"10001": "us", "11101" : "defect", "3" : "task"},
             task: {"5": "subtask", "10500" : "finding", "11903": "finding", "11103": "coding", "11102": "testing"}
         };
 
-		/** TODO: refinement status is not yet captured */
-        var g_status_map = {
+		var g_status_map = {
         	"10000": "todo", "10800": "todo", "10805" : "todo", "10801" : "todo", "10803" : "todo",
             "3": "progress",
             "6": "done", "10802" : "done", "10001": "done"
