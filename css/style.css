@@ -37,7 +37,7 @@ html
 {
     float:left;
     list-style-type:none;
-    width:20%;
+    width:25%;
     padding: 1vh;
 }
 
@@ -79,7 +79,7 @@ html
 {
     float:left;
     list-style-type:none;
-    width:20%;
+    width:25%;
     height:100px;
     overflow-y:auto;
 }

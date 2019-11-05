@@ -210,6 +210,8 @@
             {
                 var element = $("#" + user.key + "_user");
 
+				console.log('workView:')
+                console.log(user)
                 if(element.length == 0)
                 {
                     element = $("<li/>", {id: user.key + "_user", "data-name" : user.displayName, "data-user": user.key});

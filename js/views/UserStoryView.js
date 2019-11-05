@@ -68,7 +68,7 @@
 						
 						$("<li/>", {class: "todo", html: "<ul></ul>"}).appendTo(us);
 						$("<li/>", {class: "progress", html: "<ul></ul>"}).appendTo(us);
-						$("<li/>", {class: "test", html: "<ul></ul>"}).appendTo(us);
+						//$("<li/>", {class: "test", html: "<ul></ul>"}).appendTo(us);
 						$("<li/>", {class: "done", html: "<ul></ul>"}).appendTo(us);
 						$("<li/>", {class: "rejected", html: "<ul></ul>"}).appendTo(us);
 	

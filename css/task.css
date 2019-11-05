@@ -27,16 +27,25 @@
   background-color: #FFEB3B;
 }
 
-.task.qa:before
+.task.qa:before, .task.coding:before
 {
   background-color: #FF9800;
 }
 
-.task.offsprint_task:before
+.task.offsprint_task:before, .task.testing:before
 {
   background-color: #8BC34A;
 }
 
+.task.subtask:before
+{
+    background-color: #0052cc;
+}
+
+.task.finding:before
+{
+    background-color: #ff1744;
+}
 
 .task:hover .number
 {

@@ -65,7 +65,7 @@
                     function(data)
                     {
                         credentials.token = data.token;
-                        credentials.domain = "http://" + data.host + ":" + data.port;
+                        credentials.domain = "https://" + data.host + ":" + data.port + "/jira";
 
                         self.loginView.load();
                         self.boardView.init();
@@ -76,7 +76,7 @@
                         self.userStoryView.init();
                         self.taskView.init();
                         
-                        self.videoChatView.init();
+                        //self.videoChatView.init();
                     },
                     function(data)
                     {

@@ -31,7 +31,7 @@
             {
                 $.each( data.values, function( key, value )
                 {
-                   $("#sprintList").append("<option data-state='" + value.state + "' value='" + value.id + "'>" + value.name + "</option>")
+                    $("#sprintList").append("<option data-state='" + value.state + "' value='" + value.id + "'>" + value.name + "</option>")
                 });
 
                 var last = $("#sprintList option[data-state='active']");

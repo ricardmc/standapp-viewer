@@ -13,7 +13,7 @@
 				$.ajax
 				({
 					type: "GET",
-					url: credentials.domain + "/rest/agile/1.0/board/" + boardId + "/sprint?maxResults=1000&startAt=" + startAt,
+					url: credentials.domain + "/rest/agile/1.0/board/" + boardId + "/sprint?state=active&maxResults=1000&startAt=" + startAt,
 					dataType: 'json',
 					beforeSend: function(xhr) { 
 						xhr.setRequestHeader("Authorization", credentials.token); 

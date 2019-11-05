@@ -28,7 +28,11 @@
             {
                 $.each( data.values, function( key, value )
                 {
-                    $("#boardList").append("<option value='" + value.id + "'>" + value.name + "</option>")
+                    // Filtering by GEMweb Plus board
+                    if(value.name.search("GEMweb") > -1){
+                        $("#boardList").append("<option value='" + value.id + "'>" + value.name + "</option>")
+                        data.isLast = true;
+                    }
                 });
 
                 if(data.isLast)
